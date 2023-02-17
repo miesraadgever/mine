@@ -1,5 +1,4 @@
 import React, { FunctionComponent, useState } from "react";
-import VideoData from "./VideoData";
 
 interface Props {
   video: string;
