@@ -1,0 +1,121 @@
+.link {
+    text-decoration: none;
+}
+
+
+.nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    min-height: 7vh;
+    color: black;
+    margin-top: 2rem;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    color: gray;
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+
+.project__nav {
+    display: flex;
+}
+
+
+.project {
+    opacity: 95%;
+    padding-left: 1em;
+    padding-right: 1em;
+    :hover {
+        opacity: 100%;
+    }
+}
+
+.center {
+    margin: auto;
+}
+
+.project__image {
+    display: flex;
+    width: 12em;
+    height: 12em;
+    object-fit: cover;
+}
+
+.project__heading {
+    display: flex;
+    margin-left: 1em;
+}
+
+.caption {
+    font-size: 0.98em;
+    max-width: 12em;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+
+    :hover {
+        color: black;
+        text-shadow: 1px 1px #0000001c;
+    }
+}
+
+.video {
+    width: 100vw;
+    display: flex;
+}
+
+
+.page-head {
+    font-size: 3vw;
+}
+
+.page-description {
+    font-size: 1.2vw;
+}
+
+.image__fit {
+    object-fit: cover;
+    width: auto;
+    height: 50%;
+    margin-bottom: 0px;
+}
+
+.description {
+    p {
+        transform-origin: 0 0;
+        padding-left: 2.5em;
+        transform: rotate(90deg);
+        font-size: 1em;
+    }
+}
+
+element-style {
+    width: 100%;
+    height: 120px;
+}
+
+.modal-body {
+    width: 100%;
+    height: auto;
+    max-width: none!important;
+}
+
+.filter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+@import "~bootstrap/scss/bootstrap";
